@@ -2,15 +2,13 @@
 
 int main() {
 
-    // https://www.codechef.com/problems/PHONEYR
+    // https://www.codechef.com/problems/DOUBLERENT
 
-	int year;
-	int phone;
-	
-	scanf("%d", &year);
-	
-	phone = ("%d", year); 
-    printf("K%d\n", phone);
+    int x;
+    scanf("%d", &x);
+
+    int output = x * 2;
+    printf("%d\n", output);
 
     return 0;
 }
