@@ -8,5 +8,8 @@ int main(){
     total_students = total_students + 5;
     printf("Total number of students %d\n", total_students);
 
+    double gpa = 3.6;
+    printf("My cgpa %lf\n, gpa");
+
     return 0;
 }
