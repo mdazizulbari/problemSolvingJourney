@@ -31,6 +31,10 @@ int main() {
 
     right shift dose / 2 
     (<< and write how many digits you want to shift)
+
+    how to know positional values of binary numbers?
+    positional means 1101 here the we can say what's the value of the 2nd number from left
+    (num >> position you want) & 1
     */
     int a;
     scanf("%d", &a);
