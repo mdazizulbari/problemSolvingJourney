@@ -5,7 +5,7 @@ int main() {
 
     int a, b, c;
     int input;
-    scanf("%d%d%d", &input);
+    scanf("%d", &input);
     
     c = input - input / 10 * 10;  
         // 523 - 523 / 10 * 10
