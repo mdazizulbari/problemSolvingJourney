@@ -34,9 +34,6 @@ int main() {
 
     you can do all the divisions and multiplications of 2 with the binary shift
 
-    how to know positional values of binary numbers?
-    positional means 1101 here the we can say what's the value of the 2nd number from left
-    (num >> position you want) & 1
     */
     int a;
     scanf("%d", &a);
