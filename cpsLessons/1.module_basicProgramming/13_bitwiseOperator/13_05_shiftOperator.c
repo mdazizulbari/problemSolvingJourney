@@ -16,21 +16,23 @@ int main() {
     0000000
     this was in decimals, now lets see in binary
 
-    000011
-    000110 / 2
-    001100 / 2
-    011000 * 2
-    001100 * 2
-    000110 * 2
-    000011 * 2
-    000001 * 2
-    000000
+    000011 = 3
+    000110 = 6 * 2
+    001100 = 12 * 2
+    011000 = 24 / 2
+    001100 = 12 / 2
+    000110 = 6 / 2
+    000011 = 3 / 2
+    000001 = 1 / 2
+    000000 = 0
 
     left shift dose * 2
     (<< and write how many digits you want to shift)
 
     right shift dose / 2 
     (<< and write how many digits you want to shift)
+
+    you can do all the divisions and multiplications of 2 with the binary shift
 
     how to know positional values of binary numbers?
     positional means 1101 here the we can say what's the value of the 2nd number from left
