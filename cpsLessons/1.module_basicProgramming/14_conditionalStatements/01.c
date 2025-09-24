@@ -12,7 +12,7 @@ int main() {
     int budget, price, available;
     scanf("%d%d%d", &budget, &price, &available);
 
-    if(price <= budget && available){
+    if(price <= budget && available == 1){
         printf("YES\n");
     } else {
         printf("NO\n");
