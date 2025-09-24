@@ -20,5 +20,11 @@ int main() {
     } 
     else printf("No\n");
 
+    // the way shown in the lecture
+    // if((y>=x && y-x <= 2) || (y<=x && x-y <= 3)){
+    //     printf("Yes\n");
+    // }
+    // else printf("No\n");
+
     return 0;
 }
