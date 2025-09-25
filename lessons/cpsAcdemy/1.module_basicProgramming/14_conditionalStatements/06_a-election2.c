@@ -14,9 +14,14 @@ int main() {
     else gap = a - t;
     // printf("%d\n",gap);
 
-
     if(remaining < gap) printf("Yes\n");
     else printf("No\n");
+
+    // the way explained in the lecture, 
+    // if((t > (a+remaining)) || (a > (t+remaining))){
+    //     printf("Yes\n");
+    // }
+    // else printf("No\n");
 
     return 0;
 }
