@@ -15,14 +15,12 @@ int main() {
         if(a > c){
             printf("%d %d %d\n", c, a, b);
         }
+        // a,b & c,a
+        else if(b < c){
+            printf("%d %d %d\n", a,b,c);
+        }
         else{
-            // a,b & c,a
-            if(b < c){
-                printf("%d %d %d\n", a,b,c);
-            }
-            else{
-                printf("%d %d %d\n", a,c,b);
-            }
+            printf("%d %d %d\n", a,c,b);
         }
     }
     else{
@@ -30,14 +28,12 @@ int main() {
         if(b > c){
             printf("%d %d %d\n", c, b, a);
         }
+        // b,a & c,a
+        else if(a < c){
+            printf("%d %d %d\n", b,a,c);
+        }
         else{
-            // b,a & c,a
-            if(a < c){
-                printf("%d %d %d\n", b,a,c);
-            }
-            else{
-                printf("%d %d %d\n", b,c,a);
-            }
+            printf("%d %d %d\n", b,c,a);
         }
     }
 
