@@ -7,9 +7,9 @@ int main() {
     int a,b;
     scanf("%d%d", &a, &b);
 
-    // int ans = (pow(a,b) + pow(b,a));
+    int ans = (pow(a,b) + pow(b,a));
 
-    // printf("%d\n", ans);
+    printf("%d\n", ans);
     
     return 0;
 }
