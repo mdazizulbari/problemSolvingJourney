@@ -11,9 +11,37 @@ int main()
 
         for (int i = 1; i <= h; i++)
         {
-            for (int j = 1; j <= w; j++)
+            if (i == 1)
             {
-                printf("#");
+                for (int j = 1; j <= w; j++)
+                {
+                    printf("#");
+                }
+            }
+            else if (i == h)
+            {
+                for (int j = 1; j <= w; j++)
+                {
+                    printf("#");
+                }
+            }
+            else
+            {
+                for (int j = 1; j <= w; j++)
+                {
+                    if (j == 1)
+                    {
+                        printf("#");
+                    }
+                    else if (j == w)
+                    {
+                        printf("#");
+                    }
+                    else
+                    {
+                        printf(".");
+                    }
+                }
             }
             printf("\n");
         }
