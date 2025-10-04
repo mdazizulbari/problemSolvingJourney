@@ -11,5 +11,4 @@ int main() {
         ans = s * 24000;
         printf("%d\n", ans);
     }
-
 }
