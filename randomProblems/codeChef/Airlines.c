@@ -13,24 +13,31 @@ int main()
 
         int need = n / 100;
         int remainder = n % 100;
-        int buy;
+        // int buy;
 
-        if (x == 0 && n == 0)
-        {
-            buy = 0;
-        }
-        else if (x == 0)
-        {
-            buy = 1;
-        }
-        else if (need > x)
-        {
-            buy = need - x;
-            if (remainder != 0)
-                buy++;
-        }
-        else
-            buy = 0;
+        // if (x == 0 && n == 0)
+        // {
+        //     buy = 0;
+        // }
+        // else if (x == 0)
+        // {
+        //     buy = 1;
+        // }
+        // else if (need > x)
+        // {
+        //     buy = need - x;
+        //     if (remainder != 0)
+        //         buy++;
+        // }
+        // else
+        //     buy = 0;
+
+
+        // code after instructor only read the questions and I saw it from a different perspective
+        int buy = need - x;
+        if (remainder != 0)
+            buy++;
+        if(buy < 0) buy = 0;
 
         printf("%d\n", buy);
     }
