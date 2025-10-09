@@ -15,8 +15,8 @@ int main()
         {
             int ai, bi, aiTemp, biTemp;
             bi = 0;
-            scanf("%d%d", &aiTemp, &biTemp);
-            printf("temp value = %d %d %d\n", n, aiTemp, biTemp);
+            scanf("%d %d", &aiTemp, &biTemp);
+            // printf("temp value = %d %d %d\n", n, aiTemp, biTemp);
             if (aiTemp <= 10 && biTemp > bi)
             {
                 // ai = aiTemp;
@@ -24,9 +24,9 @@ int main()
                 bi = biTemp;
                 winner = n + 1;
             }
-            printf("bi = %d\n", bi);
+            // printf("bi = %d\n", bi);
         }
-        // printf("%d\n", winner);
+        printf("%d\n", winner);
     }
 
     return 0;
