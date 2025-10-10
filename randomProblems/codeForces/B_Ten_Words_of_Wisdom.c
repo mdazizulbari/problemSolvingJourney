@@ -11,10 +11,10 @@ int main()
         int n;
         scanf("%d", &n);
         int winner = 0;
-        while (n--)
+        int ai, bi, aiTemp, biTemp;
+        bi = 0;
+        for (int i = 1; i <= n; i++)
         {
-            int ai, bi, aiTemp, biTemp;
-            bi = 0;
             scanf("%d %d", &aiTemp, &biTemp);
             // printf("temp value = %d %d %d\n", n, aiTemp, biTemp);
             if (aiTemp <= 10 && biTemp > bi)
@@ -22,7 +22,7 @@ int main()
                 // ai = aiTemp;
                 // printf("n = %d\n", n);
                 bi = biTemp;
-                winner = n + 1;
+                winner = i;
             }
             // printf("bi = %d\n", bi);
         }
