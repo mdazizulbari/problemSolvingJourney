@@ -1,4 +1,5 @@
 // https://codeforces.com/contest/1669/problem/A
+// A. Division?
 #include <stdio.h>
 
 int main()

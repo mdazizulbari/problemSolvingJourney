@@ -1,4 +1,6 @@
 // https://codeforces.com/contest/1850/problem/B
+// B. Ten Words of Wisdom
+
 #include <stdio.h>
 
 int main()

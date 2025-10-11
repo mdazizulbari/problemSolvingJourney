@@ -1,4 +1,6 @@
 // https://codeforces.com/contest/1352/problem/A
+// A. Sum of Round Numbers
+
 #include <stdio.h>
 
 int main()

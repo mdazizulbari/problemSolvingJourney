@@ -1,4 +1,6 @@
 // https://codeforces.com/contest/1352/problem/B
+// B. Same Parity Summands
+
 #include <stdio.h>
 
 int main()
