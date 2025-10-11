@@ -2,8 +2,8 @@
 
 int main()
 {
-    int a[10];
     int nums = 10;
+    int a[nums];
 
     for (int i = 0; i < nums; i++)
     {
