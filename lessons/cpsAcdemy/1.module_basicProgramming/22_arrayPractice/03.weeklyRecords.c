@@ -24,7 +24,7 @@ int main()
     // ------ ans from the lecture with only one loop
     int n;
     scanf("%d", &n);
-    int arr[n * 7];
+    int arr[n * 7 + 1];
     int ans = 0;
 
     for (int d = 1; d <= n * 7; d++)
