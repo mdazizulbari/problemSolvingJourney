@@ -25,6 +25,7 @@ int main()
     int n;
     scanf("%d", &n);
     int arr[n * 7 + 1];
+    // arr[5] means 0 to 4 so add 1
     int ans = 0;
 
     for (int d = 1; d <= n * 7; d++)
