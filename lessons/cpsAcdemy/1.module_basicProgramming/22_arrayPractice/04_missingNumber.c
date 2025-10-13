@@ -10,7 +10,11 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int arr[n - 1], f[n + 1] = {};
+    int arr[n - 1];
+    int f[n + 1];
+    for (int i = 0; i <= n; i++)
+        f[i] = 0; // initialize manually
+
     /*
     n = the number of numbers we will get as input
     arr[n-1] will have 0 to 4 places
