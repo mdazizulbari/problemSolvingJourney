@@ -1,3 +1,4 @@
+// https://www.codechef.com/problems/MINWAGE
 #include <stdio.h>
 
 int main() {
