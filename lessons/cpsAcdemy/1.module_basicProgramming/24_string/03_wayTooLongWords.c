@@ -1,6 +1,7 @@
 // https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/F
 // way too long words
 #include <stdio.h>
+#include <string.h>
 
 int main()
 

@@ -13,7 +13,7 @@ int main()
     int arr[n - 1];
     int f[n + 1];
     for (int i = 0; i <= n; i++)
-        f[i] = 0; // initialize manually
+        f[i] = 0; // manually initialize all the values as 0
 
     /*
     n = the number of numbers we will get as input
@@ -28,6 +28,26 @@ int main()
     {
         scanf("%d", &arr[i]);
         f[arr[i]]++;
+        /*It's frequency counting.**
+
+        Breaking it down:
+        - `arr[i]` = the value you just read (e.g., `3`)
+        - `f[arr[i]]` = access the frequency array at index `3`
+        - `++` = increment that counter
+
+        **Example:**
+
+        Input: `arr = {2, 5, 2, 3, 5, 5}`
+
+        After processing:
+        ```
+        f[0] = 0
+        f[1] = 0
+        f[2] = 2  ← number 2 appeared twice
+        f[3] = 1  ← number 3 appeared once
+        f[4] = 0
+        f[5] = 3  ← number 5 appeared three times
+        */
     }
 
     int ans;
