@@ -70,4 +70,5 @@ int main()
     printf("%d %d\n", gw, mw);
 
     return 0;
+    // k
 }
