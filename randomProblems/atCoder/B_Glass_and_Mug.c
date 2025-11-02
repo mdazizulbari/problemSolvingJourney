@@ -32,10 +32,10 @@ int main()
         }
         else
         {
-            if (mw >= g)
-            // when have more water than or equal to glass capacity, it fulls glass
+            if (mw >= (g - gw))
+            // when have more water than or equal to how much water glass needs to be full 
             {
-                mtg = g; // giving away water equal to glass capacity
+                mtg = g - gw; // giving away as much water that is needed to fill the glass
                 // mw = mw - g;
             }
             // when have LESS water than glass capacity, we make the mug empty
@@ -45,7 +45,7 @@ int main()
                 // mw = 0;
             }
             mw = mw - mtg; // updating the mug value
-            gw = mtg;      // pouring the water to glass
+            gw = gw + mtg; // pouring the water to glass
         }
 
         // if (mw == m) // if mug is full4
