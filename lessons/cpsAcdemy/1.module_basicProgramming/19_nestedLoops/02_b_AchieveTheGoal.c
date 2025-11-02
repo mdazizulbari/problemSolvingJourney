@@ -1,3 +1,6 @@
+// https://atcoder.jp/contests/abc151/tasks/abc151_b?lang=en
+// achieve the goal
+
 #include <stdio.h>
 
 int main() {
