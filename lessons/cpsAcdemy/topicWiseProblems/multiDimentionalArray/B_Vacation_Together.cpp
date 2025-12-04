@@ -1,2 +1,0 @@
-// https://atcoder.jp/contests/abc311/tasks/abc311_b
-// Vacation Together
